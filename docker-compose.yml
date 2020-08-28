@@ -1,0 +1,13 @@
+version: '3'
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: webapp
+    ports:
+      - 3000:3000
+    environment:
+      - ENV1=THANKS
+      - ENV2="FOR ALL"
+      - ENV3="THE FISH"
