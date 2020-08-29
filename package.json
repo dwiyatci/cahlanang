@@ -1,7 +1,7 @@
 {
   "name": "cahlanang",
-  "version": "1.0.0",
-  "description": "play along with docker",
+  "version": "1.2.0",
+  "description": "playalong docker",
   "main": "index.js",
   "repository": "https://github.com/dwiyatci/cahlanang",
   "author": "Glenn Dwiyatcita",
@@ -9,7 +9,6 @@
   "private": false,
   "scripts": {
     "start": "node index.js",
-    "nyancat": "nyancat",
     "cowsay": "cowsay",
     "cowthink": "cowthink",
     "format": "prettier --write \"{**/*,*}.{js,ts,jsx,tsx,json,yml,yaml,xml,html,css,less,sass,scss,md}\"",
