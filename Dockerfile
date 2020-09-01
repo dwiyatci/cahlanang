@@ -5,7 +5,7 @@ COPY package.json .
 RUN yarn install
 RUN yarn global add nyancat
 
-EXPOSE 3000
+EXPOSE 8080
 ENTRYPOINT [ "docker-entrypoint.sh" ]
 CMD [ "yarn", "start" ]
 
