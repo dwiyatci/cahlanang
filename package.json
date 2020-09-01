@@ -17,7 +17,8 @@
   "dependencies": {
     "cowsay": "1.4.0",
     "express": "4.17.1",
-    "nyancat": "0.0.5"
+    "nyancat": "0.0.5",
+    "pug": "3.0.0"
   },
   "devDependencies": {
     "prettier": "2.1.1"
