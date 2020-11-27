@@ -6,7 +6,7 @@ RUN yarn install
 RUN yarn global add nyancat
 
 EXPOSE 8080
-ENTRYPOINT [ "docker-entrypoint.sh" ]
+ENTRYPOINT [ "./docker-entrypoint.sh" ]
 CMD [ "yarn", "start" ]
 
 COPY . .
